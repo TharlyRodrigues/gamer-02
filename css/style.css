@@ -28,9 +28,12 @@ body * {
 #game-container {
   width: 500px;
   height: 600px;
-  background-image: url(img/1719697.png);
+  background-image: url(img/1719697.avif);
+  background-color: #010101;
+  background-size: contain; /* Ajusta a imagem para caber inteiramente no contêiner */
+  background-position: center; /* Centraliza a imagem no contêiner */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
   position: relative;
-  border-radius: 8px;
   box-shadow: 4px 4px 8px rgba(49, 207, 104, 0.574);
   overflow: hidden;
 }
