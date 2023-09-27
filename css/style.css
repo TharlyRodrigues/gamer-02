@@ -78,6 +78,12 @@ h1 {
   font-family: fontRetro;
   color: #fff;
 }
+h3 {
+  margin-top: 20px;
+  color: #161616;
+  font-family: fontRetro;
+  color: #fff;
+}
 
 #game-over-message {
   position: absolute;
